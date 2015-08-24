@@ -2,6 +2,8 @@ VERSION >= v"0.4.0-dev+6521" && __precompile__()
 
 module Color
 
+warn("Color is deprecated, please use Colors instead. See https://github.com/JuliaGraphics/Colors.jl")
+
 using FixedPointNumbers, Compat
 
 typealias Fractional Union(FloatingPoint, FixedPoint)
