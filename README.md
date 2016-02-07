@@ -10,6 +10,9 @@ includes conversion between colorspaces, measuring distance between colors,
 simulating color blindness, and generating color scales for graphics, among
 other things.
 
+# This package is deprecated---use Colors.jl instead
+
+This package was the original Julia package for handling colors, but several backwardly-incompatible changes were necessary, and a new package [Colors.jl](https://github.com/JuliaGraphics/Colors.jl) was forked from this one. This package will not be installable on future versions of julia, so all users should migrate to Colors.jl.
 
 ## Colorspaces
 
